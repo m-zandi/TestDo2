@@ -189,7 +189,7 @@ z-index: 20;
     grid-column: 22/span 13;
 
     grid-row:2 !important;
-    text-align: left;
+    text-align: right;
     
 }
 .aboutDetails{
@@ -208,11 +208,12 @@ z-index: 20;
     display: flex;
     flex-direction: column;
     gap:0px;
+    justify-items: right;
 
 }
 .aboutExperties,.aboutAccurate,.aboutQuality{
-    justify-content: left;
-    text-align: left;
+    justify-content: right;
+    text-align: right;
 
 }
 .aboutEmergency{
@@ -221,7 +222,7 @@ z-index: 20;
     /* align-self: left !important; */
     display: flex;
     justify-content: left !important;
-    text-align: left;
+    text-align: right;
     gap:0px;
 }
 
@@ -769,8 +770,11 @@ height:299px;
     }
     /* hero */
     .bgImageToAllHero{
-        background-position: 82% 33.5%!important;
-        background-size: 134%!important;
+        /* background-position: 82% 33.5%!important;
+        background-size: 134%!important; */
+
+        background-position: 19% 48.5%!important;
+        background-size: 110%!important;
     }
 
     .welcome{
@@ -878,7 +882,7 @@ height:299px;
     }
     .aboutDetails p,.productDetails.visible,.heroDetails{
         font-size: 160%;
-        text-align: justify;
+        text-align: right;
     }
     /*  */
 
@@ -890,7 +894,7 @@ height:299px;
 
     .socialMedia img{
         width: 1.2vw;
-        transform: translate(-79%, 1.5vh);
+        transform: translate(450%, 1.5vh);
         top:30px
     }
     .lang{
@@ -909,21 +913,21 @@ height:299px;
         background-size: 100%;
     }
     .title {
-        margin-top: -11%;
+        margin-top: -9%;
     }
     .menu{
 
         transform: translate(0%, -5.5%)!important;
     }
     .menu ul{
-        transform: translate(9%, -2%);
+        transform: translate(33%, -2%);
         height: 280px;
 
     }
     /* hero */
     .bgImageToAllHero{
-        background-position: 82% 33.5%!important;
-        background-size: 134%!important;
+        background-position: 10% 47.6%!important;
+        background-size: 120%!important;
     }
     .slogan{
         grid-row:4;
@@ -931,26 +935,26 @@ height:299px;
     /* about */
     .aboutImage{
         height: 70vh !important;
-        grid-column: 4 / span 15;
+        grid-column: 24 / span 15;
         width: 37vw;
     }
     .aboutCompany{
-        grid-column: 23 / span 13;
+        grid-column: 14 / span 13;
     }
     .aboutDash{
-        transform: translateY(-24px)!important;
+        transform: translate(4px,-10px);
     }
     .aboutSlogan{
-        grid-column: 23 / span 15;
+        grid-column: 7 / span 12;
     }
     .aboutDetails{
-         grid-column: 23 / span 15;
+         grid-column: 4 / span 15;
         }
     .aboutPros{
-        grid-column: 23 / span 15;
+        grid-column: 4 / span 15;
     }
         .aboutEmergency{
-            grid-column: 32 / span 7; 
+            grid-column: 4 / span 7; 
         }
 
     /* portfolio */
@@ -1017,7 +1021,7 @@ font-size: 1.3vw;
         font-size: 1.5vw!important;
     }
     .yearsWork, .successRate, .satisfiedClients {
-        font-size: 100%;
+        font-size: 170%;
     }
     .aboutTitle,.productTitle.visible{
         font-size: 2.5vw;
@@ -1025,7 +1029,7 @@ font-size: 1.3vw;
     }
     .aboutDetails p,.productDetails.visible,.heroDetails{
         font-size: 160%;
-        text-align: justify;
+        text-align: right;
     }
     /*  */
 

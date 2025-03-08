@@ -31,7 +31,7 @@
 /* ------social Media---------- */
 .socialMedia{
     position:relative;
-    grid-column: 76/ span 25;
+    grid-column: 77/ span 25;
     grid-row: 1;
 
     transform: translate(0%, -3%);
@@ -160,9 +160,13 @@
 
         /* transform: translateX(-45%); */
         font-family: 'normal_font', sans-serif;
-        color: black;
+        /* color: black !important; */
         font-size: .7vw;  
         /* background-color: brown; */
+
+    }
+    .lang_text a {
+        color: black ;
 
     }
 
