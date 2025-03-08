@@ -319,7 +319,7 @@
 
 
 .yearsWork_mobile span:nth-child(1),.successRate_mobile  span:nth-child(1),.satisfiedClients_mobile  span:nth-child(1){
-    font-size: 3.6vw;
+    font-size: 4.5vw;
     word-wrap: break-word;
     /* text-align: center; */
     /* transform:rotate(270deg); */
@@ -977,6 +977,8 @@ font-size: 3.2vw;
 }
 .contactText{
     text-align: center;
+    grid-column: 4 / span2;
+
 }
 .footerAddresses{
     grid-column: 4/ span 34;
@@ -1557,7 +1559,7 @@ width: 3.8vw;
    /* about */
    .yearsWork_mobile span:nth-child(1){
     transform: translate(-15%,-20px)rotate(310deg);
-    font-size: 3.5vw;
+    font-size: 4.5vw;
 }
    /* --- portfolio --- */
    .bullet {
