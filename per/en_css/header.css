@@ -31,11 +31,11 @@
 /* ------social Media---------- */
 .socialMedia{
     position:relative;
-    grid-column: 1/ span 25;
+    grid-column: 76/ span 25;
     grid-row: 1;
 
-    transform: translate(-1%,-4%);
-    background-image: url("../en pic/En laptop social media bg - FFD700 laptop.svg");
+    transform: translate(0%, -3%);
+    background-image: url("../per pic/Laptop social media bg - FFD700 laptop - Per.svg");
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -72,7 +72,7 @@
 
     /* ---- addresses phone , email address---- */
     .addresses {
-        grid-column: 20/ span 80;
+        grid-column: 9/ span 80;
         grid-row: 1;
         width: 100%;
         z-index: 3;
@@ -96,7 +96,7 @@
         width: 100%;
     }
     .item:nth-child(1){
-        flex-basis: 40%;
+        flex-basis: 53%;
     }
     .item:nth-child(2){
         flex-basis: 50%;
@@ -159,9 +159,9 @@
         justify-content: center;
 
         /* transform: translateX(-45%); */
-        font-family: 'normal_font_bold', sans-serif;
-        color: white;
-        font-size: .9vw;  
+        font-family: 'normal_font', sans-serif;
+        color: black;
+        font-size: .7vw;  
         /* background-color: brown; */
 
     }
@@ -171,9 +171,9 @@
         text-align: center;
         justify-content: center;
         
-        font-family: 'normal_font', sans-serif;
-        color: white;
-        font-size: .7vw;
+        font-family: 'normal_font_bold', sans-serif;
+        color: black;
+        font-size: .9vw;
         /* background-color: purple; */
     } 
 
@@ -183,7 +183,7 @@
 
 /* ------- logo ------ */
 .logo{
-    grid-column: 15/ span 14;
+    grid-column: 75/ span 14;
     grid-row: 1/span2;
     width:0%;
     /* margin-top: 20px; */
@@ -278,8 +278,9 @@ z-index: 20;
 
     /* ------ davudtech title ------- */
 
+
 .title{
-    grid-column: 75/ span 15;
+    grid-column: 15/ span 15;
     grid-row: 2;
     margin-top: -9%;
 

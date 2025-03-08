@@ -5,16 +5,41 @@
 @font-face {
     font-family: 'normal_font_bold';
     src:
-     url('../en_font/Kanit-Regular.woff2') format('woff2'), 
+     url('../per_font/Kanit-Regular.woff2') format('woff2'), 
      /* Modern browsers */
-            url('../en_font/Kanit-Regular.woff') format('woff'), 
+            url('../per_font/Kanit-Regular.woff') format('woff'), 
               /* Older browsers */
-            url('../en_font/Kanit-Regular.ttf') format('truetype'); /* Fallback */
+            url('../per_font/Kanit-Regular.ttf') format('truetype'); /* Fallback */
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'welcome_font';
+    src:
+     url('../per_font/Kanit-Regular.woff2') format('woff2'), 
+     /* Modern browsers */
+            url('../per_font/Kanit-Regular.woff') format('woff'), 
+              /* Older browsers */
+            url('../per_font/Kanit-Regular.ttf') format('truetype'); /* Fallback */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'hero_details_font';
+    src:
+     url('../per_font/BMitra.woff2') format('woff2'), 
+     /* Modern browsers */
+            url('../per_font/BMitra.woff') format('woff'), 
+              /* Older browsers */
+            url('../per_font/BMitra.ttf') format('truetype'); /* Fallback */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 @font-face {
     font-family: 'normal_font2_100';
     src: 
@@ -58,9 +83,9 @@
     @font-face {
         font-family: 'AddressFont';
         src: 
-        url('../en_font/FugazOne-Regular.woff2') format('woff2'),
-             url('../en_font/FugazOne-Regular.woff') format('woff'),
-             url('../en_font/FugazOne-Regular.ttf') format('truetype');
+        url('../per_font/BYekan.woff2') format('woff2'),
+             url('../per_font/BYekan.woff') format('woff'),
+             url('../per_font/BYekan.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
@@ -69,24 +94,26 @@
 @font-face {
     font-family: 'menu_font';
     src: 
-    url('../en_font/BeauRivage-Regular.woff2') format('woff2'),
+    url('../per_font/danstevis.woff2') format('woff2'),
      /* Modern browsers */
-            url('../en_font/BeauRivage-Regular.woff') format('woff'),  
+            url('../per_font/danstevis.woff') format('woff'),  
              /* Older browsers */
-            url('../en_font/BeauRivage-Regular.ttf') format('truetype'); /* Fallback */
+            url('../per_font/danstevis.ttf') format('truetype'); /* Fallback */
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     }
 
+
+
     @font-face {
         font-family: 'davudtech_font';
         src: 
-        url('../en_font/AntonSC-Regular.woff2') format('woff2'),
-         /* Modern browsers */
-                url('../en_font/AntonSC-Regular.woff') format('woff'),   
+        url('../per_font/Digi Lalezar Plus Circle.woff2') format('woff2'),
+            /* Modern browsers */
+                url('../per_font/Digi Lalezar Plus Circle.woff') format('woff'),   
                 /* Older browsers */
-                url('../en_font/AntonSC-Regular.ttf') format('truetype'); /* Fallback */
+                url('../per_font/Digi Lalezar Plus Circle.ttf') format('truetype'); /* Fallback */
         font-weight: normal;
         font-style: normal;
         font-display: swap;
@@ -95,9 +122,9 @@
 @font-face {
     font-family: 'sloganFont';
     src: 
-    url('../en_font/ZenDots-Regular.woff2') format('woff2'),
-         url('../en_font/ZenDots-Regular.woff') format('woff'),
-         url('../en_font/ZenDots-Regular.ttf') format('truetype');
+    url('../per_font/BYekan.woff2') format('woff2'),
+         url('../per_font/BYekan.woff') format('woff'),
+         url('../per_font/BYekan.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -116,9 +143,9 @@
 @font-face {
     font-family: 'statisticFont';
     src: 
-    url('../en_font/Montserrat-MediumItalic.woff2') format('woff2'),
-         url('../en_font/Montserrat-MediumItalic.woff') format('woff'),
-         url('../en_font/Montserrat-MediumItalic.ttf') format('truetype');
+    url('../per_font/BMitra.woff2') format('woff2'),
+         url('../per_font/BMitra.woff') format('woff'),
+         url('../per_font/BMitra.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

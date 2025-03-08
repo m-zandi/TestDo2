@@ -11,7 +11,8 @@
     grid-column: 4/span2;
     grid-row:1;
     color:rgb(255, 215, 0);
-    font-family: normal_font_bold;
+    font-family:sloganFont;
+    ;
     font-size:1.7vw;
 }
 
@@ -143,7 +144,7 @@
     align-items: center;
     margin-bottom: 5px;
 }
-.footerLang span:nth-child(1){
+.footerLang span:nth-child(3){
     text-decoration: underline;
     font-family:normal_font_bold_2 ;
     font-size: 130%;

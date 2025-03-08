@@ -89,7 +89,7 @@ html{
 
     }
     .welcomText{
-    font-family: 'normal_font_bold', sans-serif;
+    font-family: 'sloganFont', sans-serif;
     color: rgb(255, 215, 0);
     margin-left: 10px;
     font-size: 1.7vw;
@@ -126,7 +126,7 @@ html{
         margin-top: 3.5%;
         grid-column: 4/span 20 ;
         grid-row:7/ span 3;
-        font-family: 'normal_font', sans-serif;
+        font-family: 'hero_details_font', sans-serif;
         color:white;
         margin-top: 7%;
         margin-bottom: 5%;
@@ -390,7 +390,7 @@ html{
     color: rgb(255, 215, 0);
     transform: translateY(-20%);
     font-size: 2.5vw;
-    font-family: dashFont;
+    font-family: sloganFont;
     align-items: center;
     text-align: center;
 
@@ -399,7 +399,7 @@ html{
 .aboutCompany span:nth-child(2){
     
     margin-left: 5%;
-    font-family: 'normal_font_bold', sans-serif;
+    font-family: 'sloganFont', sans-serif;
     color: rgb(255, 215, 0);
     font-size: 1.4vw;
     z-index: 1;
@@ -410,7 +410,7 @@ html{
     grid-column: 22/span 15; ;
     grid-row: 2;
     color: white;
-    font-family:sloganFont ;
+    font-family:'sloganFont' ;
     font-size: 230%;;
     /* text-align: justify; */
     text-shadow: 
@@ -436,7 +436,7 @@ html{
     grid-column: 22/span 15;;
     grid-row: 3;
     margin-top: 0%;
-    font-family: 'normal_font', sans-serif;
+    font-family: 'hero_details_font', sans-serif;
     color:white;
     display: flex;
     text-shadow: 
@@ -459,7 +459,7 @@ html{
     display:flex;
     flex-direction: column;
     gap:9%;
-    font-family: 'normal_font', sans-serif;
+    font-family: 'hero_details_font', sans-serif;
     color:white;
     text-shadow: 
     0px 0px 2px black, /* Top-left outline */
@@ -499,7 +499,7 @@ html{
     display: flex;
     flex-direction: column;
     color:white;
-    font-family: 'normal_font', sans-serif;
+    font-family: 'hero_details_font', sans-serif;
     gap:9%;
     text-shadow: 
     0px 0px 2px black, /* Top-left outline */
@@ -585,7 +585,7 @@ html{
 
  }
  .portfolioIntro span:nth-child(2){
-    font-family: 'normal_font_bold',sans-serif;
+    font-family: 'sloganFont',sans-serif;
     /* margin-left:2%; */
     font-size: 1.4vw;
     z-index: 1;
@@ -598,7 +598,7 @@ html{
     text-align: center;
     /* grid-column: 15 /span 10; */
     /* grid-row:2; */
-    font-family:sloganFont ;
+    font-family:'sloganFont' ;
     color:black;
     font-size: 2vw;
     text-shadow: 
@@ -672,7 +672,7 @@ html{
     font-family: dashFont;
  }
  .productIntro span:nth-child(2){
-    font-family: normal_font_bold;
+    font-family: sloganFont;
     font-size:1.4vw;
  }
 .productTitle{
@@ -697,7 +697,7 @@ html{
     grid-column: 4/ span 9;
     grid-row:3;
     color:white;
-    font-family: normal_font;
+    font-family: hero_details_font;
     font-size: 0.9vw;
 
     text-shadow: 
@@ -844,11 +844,11 @@ html{
 
   /* visability  part */
   .lang,.footerLang{
-    visibility: hidden;
+    /* visibility: hidden;
     opacity: 0;
-    display: none;
+    display: none; */
   }
   .dividerLang{
-        opacity: 0;
+        /* opacity: 0; */
     
   }
