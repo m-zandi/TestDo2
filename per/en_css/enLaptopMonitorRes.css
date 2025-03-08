@@ -260,7 +260,7 @@ display:flex;
     
 }
 .productIntro.visible {
-    grid-column: 4/span 9;
+    grid-column: 34/span 9;
     justify-content: left;    
 }
 .productsPhotos {
@@ -297,14 +297,14 @@ display:flex;
 }
 
 .footerAddresses{
-    justify-content: left;
-    text-align: left;
+    justify-content: right;
+    text-align: right;
     /* gap:3px; */
 
 }
 .locationText, .phoneNumIconText, .emailIconText{
-    justify-content: left;
-    text-align: left;
+    justify-content: right;
+    text-align: right;
 
 }
 .locationText, .phoneNumText, .emailText{
@@ -989,10 +989,11 @@ height:299px;
     }
 /* - product - */
     .productTitle.visible{
-        grid-column: 4 / span 20;
+        grid-column: 17 / span 20;
+        text-align: right;
     }
     .productDetails.visible{
-        grid-column: 4 / span 11;
+        grid-column: 26 / span 11;
     }
     .photoShape span:nth-child(1) {
         font-size: 160%;
